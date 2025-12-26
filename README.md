@@ -4,7 +4,7 @@
 
 ## 📊 Dataset Description
 - Source: [Airbnb NYC Listings](https://insideairbnb.com/get-the-data/)
-- The original dataset includes 79 columns and 36111 rows. After selecting and converting columns, we have 53 columns for analysis.
+- The original dataset includes 79 columns and 36111 rows. After selecting and converting columns, we have 53 columns for analysis
   
 - Data Dictionary: [Click here to see the whole column definition](https://github.com/Andreapan131/MarketingAnalysis_Aribnb-Listings-Performance/blob/main/Airbnb%20Open%20Data%20Dictionary.xlsx)
   - **Host & Listing Characteristics**  
@@ -24,7 +24,6 @@
 ### 2️⃣ K-means Clustering
 - Applied K-means clustering using review-related variables
 - Used the Elbow Method to determine the optimal number of clusters (k = 3)
-- Iteratively assigned data points to clusters based on similarity
 - Merged cluster labels into the original dataset
 
 ### 3️⃣ Statistical Testing (ANOVA)
@@ -64,7 +63,10 @@ Because cluster patterns alone cannot establish a review–revenue relationship,
 
 
 ## 🚀 Business & Social Implications
-
-
+- Shift from supply-driven growth to quality-driven growth
+- Higher review volume strengthens platform reliability by increasing transparency and guest confidence
+- Pricing cannot compensate for poor quality and will not drive occupancy increases
+- Target quality investments geographically for maximum impact
+  
 ## 📂 Repository Files
 
