@@ -4,7 +4,7 @@
 
 ## 📊 Dataset Description
 - Source: [Airbnb NYC Listings](https://insideairbnb.com/get-the-data/)
-- The original dataset includes 79 columns and 36111 rows. After selecting and converting columns, we have 53 columns for analysis
+- The original dataset includes 79 columns and 36111 rows. After cleaning, we have 53 columns for analysis
   
 - Data Dictionary: [Click here to see the whole column definition](https://github.com/Andreapan131/MarketingAnalysis_Aribnb-Listings-Performance/blob/main/Airbnb%20Open%20Data%20Dictionary.xlsx)
   - **Host & Listing Characteristics**  
@@ -27,7 +27,7 @@
 - Merged cluster labels into the original dataset
 
 ### 3️⃣ Statistical Testing (ANOVA)
-One-way ANOVA was conducted to evaluate whether the review-based clusters represent meaningful and distinct group.
+One-way ANOVA was used to evaluate if the review-based clusters represent meaningful and distinct group.
 - Tested whether customer engagement (measured by review volume) differs significantly across clusters
 - Examined whether pricing differs across clusters to ensure that observed performance differences are not simply driven by price
 
@@ -35,7 +35,7 @@ One-way ANOVA was conducted to evaluate whether the review-based clusters repres
 Because cluster patterns alone cannot establish a review–revenue relationship, linear regression was used as a formal modeling approach.
 - Estimated revenue over the past 365 days was used as the dependent variable
 - Overall review score was specified as the key independent variable
-- Control variables (price, neighborhood, host experience, and listing capacity) were included to hold other factors constant
+- Control variable were included to hold other factors constant
 
 ### 5️⃣ Data Visualization
 - Cluster-level comparisons and distributions
